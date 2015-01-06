@@ -57,19 +57,9 @@ class listener implements EventSubscriberInterface
 			'core.page_header'					=> 'include_css_in_template',
 			'core.ucp_prefs_view_data'			=> 'ucp_prefs_add',
 			'core.ucp_prefs_view_update_data'	=> 'ucp_prefs_update',
-			'core.user_setup'	=> 'load_language_on_setup',
 		);
 	}
 
-	public function load_language_on_setup($event)
-	{	
-		$lang_set_ext = $event['lang_set_ext'];
-		$lang_set_ext[] = array(
-			'ext_name' => 'crizzo/maxwidthswitch',
-			'lang_set' => 'ucp',
-		);
-		$event['lang_set_ext'] = $lang_set_ext;
-	}
 	/**
 	* Includes CSS in template if the radiobox in UCP was selected
 	*
@@ -93,6 +83,8 @@ class listener implements EventSubscriberInterface
 	*/
 	public function ucp_prefs_add($event)
 	{
+		$this->user->add_lang_ext('crizzo/maxwidthswitch', 'ucp');
+
 		// I'm so happy that this is just a radiobox! Just a boolean! <3
 		$maxwidth = $this->request->variable('maxwidth', (bool) $this->user->data['user_maxwidth']);
 		$event['data'] = array_merge($event['data'], array(
