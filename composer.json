@@ -13,13 +13,13 @@
 			"email": "kontakt@crizzo.de",
 			"homepage": "http://www.crizzo.de",
 			"role": "Developer/Founder"
-			}
+			},
 			{
 			"name": "Oliver Schramm",
 			"email": "elsensee@phpbb.de",
 			"homepage": "https://github.com/Elsensee",
 			"role": "Developer"
-			},
+			}
 		],
 	"require": {
 		"php": ">=5.3.3"
