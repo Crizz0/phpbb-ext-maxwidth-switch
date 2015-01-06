@@ -1,4 +1,7 @@
 <dl>
-	<dt><label for="">{L_COLON}</label></dt>
-	<dd></dd>
+	<dt><label for="maxwidth1">{L_MAXWIDTH}{L_COLON}</label></dt>
+	<dd>
+		<label for="maxwidth1"><input type="radio" name="maxwidth" id="maxwidth1" value="1"<!-- IF S_MAXWIDTH --> checked="checked"<!-- ENDIF --> /> {L_YES}</label>
+		<label for="maxwidth0"><input type="radio" name="maxwidth" id="maxwidth0" value="0"<!-- IF not S_MAXWIDTH --> checked="checked"<!-- ENDIF --> /> {L_NO}</label>
+	</dd>
 </dl>
