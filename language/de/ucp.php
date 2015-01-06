@@ -1,0 +1,23 @@
+<?php
+/**
+*
+* @package phpBB Extension - Crizzo Max-width switch - German (Casual)
+* @copyright (c) 2014 Crizzo - www.crizzo.de
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+*
+*/
+
+if (!defined('IN_PHPBB'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
+$lang = array_merge($lang, array(
+	'MAXWIDTH'			=> 'Maximale Breite nutzen',
+	'MAXWIDTH_EXPLAIN'	=> 'Mit der Auswahl von "Ja" wird das Forum über die gesamte Browserfenster-Breite gestreckt.',
+));
