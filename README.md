@@ -1,4 +1,4 @@
-phpbb-ext-maxwidth-switch
+Max-width switch
 =========================
 
 This extension adds a setting to the UCP to remove the max-width of prosilver.
