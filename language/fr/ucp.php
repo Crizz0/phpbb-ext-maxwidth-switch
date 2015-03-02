@@ -1,10 +1,10 @@
 <?php
 /**
 *
-* @package phpBB Extension - Crizzo Max-width switch - English
+* @package phpBB Extension - Crizzo Max-width switch - French
 * @copyright (c) 2014 Crizzo - www.crizzo.de
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
- * @translated into French by Galixte (http://www.galixte.com)
+* @translated into French by Galixte (http://www.galixte.com)
 *
 */
 
