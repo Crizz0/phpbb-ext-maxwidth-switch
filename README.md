@@ -11,13 +11,13 @@ Version: v1.0.0
 
 ## Install instructions:
 1. Download the extension
-2. Copy the whole archive content to: phpBB/ext/crizzo/aboutus
-3. Go to your phpBB-Board --> Admin Control Panel --> Customise --> Manage extensions --> About us: Enable
-4. A new tab "Extension" appears, where you setup the "About us"-page. 
+2. Copy the whole archive content to: phpBB/ext/crizzo/maxwidthswitch
+3. Go to your phpBB-Board > Admin Control Panel > Customise > Manage extensions > Max-width switch: Enable
+4. A new setting appears in UCP > Board preferences > Edit display options
 
 ## Update instructions:
-1. Go to you phpBB-Board > Admin Control Panel > Customise > Manage extensions > About us: disable
-2. Delete all files of the extension from phpBB/ext/crizzo/aboutus
+1. Go to you phpBB-Board > Admin Control Panel > Customise > Manage extensions > Max-width switch: disable
+2. Delete all files of the extension from phpBB/ext/crizzo/maxwidthswitch
 3. Upload all the new files to the same locations
-4. Go to you phpBB-Board > Admin Control Panel > Customise > Manage extensions > About us: enable
+4. Go to you phpBB-Board > Admin Control Panel > Customise > Manage extensions > Max-width switch: enable
 5. Purge the board cache
