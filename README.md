@@ -7,7 +7,7 @@ Author: Christian Schnegelberger, Oliver Schramm
 
 URL: http://www.crizzo.de
 
-Version: v1.0.0 
+Version: v1.0.1 
 
 ## Install instructions:
 1. Download the extension
