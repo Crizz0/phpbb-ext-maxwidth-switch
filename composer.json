@@ -4,7 +4,7 @@
 	"description": "This extension adds the ability to the UCP to remove the max-width of prosilver.",
 	"homepage": "https://github.com/Crizz0/phpbb-ext-maxwidth-switch",
 	"version": "1.0.1",
-	"time": "2014-03-21",
+	"time": "2015-03-21",
 	"license": "GPL-2.0",
 	"authors": [
 			{
