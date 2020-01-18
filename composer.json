@@ -32,7 +32,7 @@
 		"version-check": {
 			"host": "www.crizzo.de",
 			"directory": "/phpbbextversion",
-			"filename": "phpbb31-ext-maxwidthswitch.json"
+			"filename": "phpbb32-ext-maxwidthswitch.json"
 		}
 	}
 }
