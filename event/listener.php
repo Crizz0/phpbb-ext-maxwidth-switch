@@ -85,7 +85,6 @@ class listener implements EventSubscriberInterface
 	{
 		$this->user->add_lang_ext('crizzo/maxwidthswitch', 'ucp');
 
-		// I'm so happy that this is just a radiobox! Just a boolean! <3
 		$maxwidth = $this->request->variable('maxwidth', (bool) $this->user->data['user_maxwidth']);
 		$event['data'] = array_merge($event['data'], array(
 			'maxwidth'	=> $maxwidth,
@@ -105,7 +104,6 @@ class listener implements EventSubscriberInterface
 	*/
 	public function ucp_prefs_update($event)
 	{
-		// I'm so excited!
 		$event['sql_ary'] = array_merge($event['sql_ary'], array(
 			'user_maxwidth'		=> $event['data']['maxwidth'],
 		));

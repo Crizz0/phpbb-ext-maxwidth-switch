@@ -2,8 +2,8 @@ services:
     crizzo.maxwidthswitch.listener:
         class: crizzo\maxwidthswitch\event\listener
         arguments:
-            - @request
-            - @template
-            - @user
+            - '@request'
+            - '@template'
+            - '@user'
         tags:
-            - { name: event.listener }
+            - {name: event.listener}

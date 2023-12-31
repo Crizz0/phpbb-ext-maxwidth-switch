@@ -1,5 +1,5 @@
-Max-width switch
-=========================
+Max-width switch (phpBB 3.2.x & 3.3.x)
+======================================
 
 This extension adds a setting to the UCP to remove the max-width of prosilver.
 
@@ -7,7 +7,7 @@ Author: Christian Schnegelberger, Oliver Schramm
 
 URL: http://www.crizzo.de
 
-Version: v1.0.1 
+Version: v1.1.0 
 
 ## Install instructions:
 1. Download the extension
