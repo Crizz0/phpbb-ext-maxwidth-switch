@@ -3,8 +3,8 @@
 	"type": "phpbb-extension",
 	"description": "This extension adds the ability to the UCP to remove the max-width of prosilver.",
 	"homepage": "https://github.com/Crizz0/phpbb-ext-maxwidth-switch",
-	"version": "1.1.0",
-	"time": "2020-01-18",
+	"version": "1.1.1",
+	"time": "2023-12-31",
 	"license": "GPL-2.0-only",
 	"authors": [
 			{
@@ -27,7 +27,7 @@
 	"extra": {
 		"display-name": "Max-width switch",
 		"soft-require": {
-			"phpbb/phpbb": ">=3.2.8"
+			"phpbb/phpbb": ">=3.2.8, <3.4.0@dev"
 		},
 		"version-check": {
 			"host": "www.crizzo.de",

@@ -51,7 +51,7 @@ class listener implements EventSubscriberInterface
 	* @static
 	* @access public
 	*/
-	static public function getSubscribedEvents()
+	public static function getSubscribedEvents()
 	{
 		return array(
 			'core.page_header'					=> 'include_css_in_template',
@@ -67,7 +67,7 @@ class listener implements EventSubscriberInterface
 	* @return null
 	* @access public
 	*/
-	public function include_css_in_template($event)
+	public function include_css_in_template()
 	{
 		$this->template->assign_vars(array(
 			'S_INCLUDE_MAXWIDTH_CSS'	=> $this->user->data['user_maxwidth'],
